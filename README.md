@@ -1,9 +1,9 @@
 
-# BbyMalware
+# bByMalware
 
-Este proyecto esta realizado con python y es para fines didacticos, por favor usalo sabiamente.
+This project is done with Python and is for educational purposes, please use it wisely.
 
-El proyecto ayuda a crear archivos .doc en los cuales carga una macro que enumera los: 
+The project helps create .doc files that load a macro which enumerates the:
 - servicios
 - IPs
 - Hostname
@@ -14,29 +14,29 @@ El proyecto ayuda a crear archivos .doc en los cuales carga una macro que enumer
 
 ## Usage
 
-El proyecto se compone de 3 archivos
+The project consists of 3 files:
 
-- rdTeam.py: este archivo contiene la creación del documento y carga de la macro  
-- index.php: este archivo se cargara en el servidor atacante y este recibe los datos que envía la macro
-- redteam.vb: este archivo contiene el código de la macro.
+- rdTeam.py: This file contains the creation of the document and loading of the macro.
+- index.php: This file will be uploaded to the attacking server, which receives the data sent by the macro. 
+- redteam.vb: This file contains the code of the macro.
 
 
 ## Usage/Examples
-Para poder ejecutarlo, asegurate de tener el archivo index.php cargado en un servidor.
+To be able to execute it, make sure to have the index.php file loaded on a server.
 
 ```javascript
 python3 rdTeam.py
 ```
 
-Esto ejecutará el script el cual solicita los siguientes parametros:
+This will run the script which prompts for the following parameters:
 
 
-Nombre del archivo .doc
+Name of the .doc file
 ```javascript
 -> Enter the name of the .doc file (for example: test.doc):
 ```
 
-URL del servidor donde se cargo en index.php
+Server URL where index.php is hosted
 ```javascript
 -> Enter the URL (for example: http://127.0.0.1/):
 ```
