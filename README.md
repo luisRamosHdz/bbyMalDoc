@@ -1,7 +1,7 @@
 
 # bByMalware
 
-This project is done with Python and is for educational purposes, please use it wisely.
+This project is made with Python and is for educational purposes, please use it wisely.
 
 The project helps create .doc files that load a macro which enumerates the:
 - servicios
