@@ -1,5 +1,5 @@
 
-# bByMalware
+# bByMalDoc
 
 This project is made with Python and is for educational purposes, please use it wisely.
 
